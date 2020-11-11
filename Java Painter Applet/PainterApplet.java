@@ -350,7 +350,7 @@ public class PainterApplet extends Applet
 						g.fillOval(((x1 < x2)? x1: x2), ((y1 < y2)? y1: y2), Math.abs(x1 - x2), Math.abs(y1 - y2));
 					else
 						g.drawOval(((x1 < x2)? x1: x2), ((y1 < y2)? y1: y2), Math.abs(x1 - x2), Math.abs(y1 - y2));
-						break;
+					break;
 				case 2:
 					g.drawLine(x1, y1, x2, y2);
 					break;
